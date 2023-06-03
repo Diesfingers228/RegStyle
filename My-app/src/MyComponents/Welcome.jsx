@@ -8,13 +8,17 @@ function Welcome({setReg}) {
         flexDirection: 'column'
     };
 
+    let styleH = {
+      color: 'rgb(56, 33, 2)'
+    }
+
     // styleBody
-    document.body.style.backgroundColor = 'rgb(247, 146, 106)';
+    document.body.style.backgroundColor = 'rgb(255, 222, 173)';
 
   return (
     <>
     <div style={style}>
-    <h1>Добро пожаловать!</h1>
+    <h1 style={styleH}>Добро пожаловать!</h1>
     <button  className='back-btn' onClick={() => {localStorage.clear(); setReg(false)}}>Вернуться на сайт регистрации</button>
     </div>
     </>

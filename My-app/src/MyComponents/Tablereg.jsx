@@ -30,10 +30,6 @@ export default function Tablereg({setReg}) {
       color: 'black',
     };
 
-    let styles1 = {
-      position: 'absolute',
-      
-    };
 
     function submit(e) {
         e.preventDefault()
@@ -52,9 +48,10 @@ export default function Tablereg({setReg}) {
     document.body.style.backgroundColor = 'beige';
 
   return (
-<>
-<aside style={styles1}>
-      <p className='p-in-aside'> Добро пожаловать на сайт регистрации!<p className='p-in-aside'>Чтобы зарегестрироваться нужно:</p></p>
+<main className='main'>
+<aside className='aside'>
+      <p className='p-in-aside'> Добро пожаловать на сайт регистрации!</p>
+      <p className='p-in-aside'>Чтобы зарегестрироваться нужно:</p>
       <ul>
         <li className='li-in-aside'>В поле "Дата рождения" введите свою дату рождения.</li>
         <li className='li-in-aside'>В поле "Имя" введите свое имя.</li>
@@ -66,8 +63,10 @@ export default function Tablereg({setReg}) {
     </aside>
     
     <form onSubmit={submit} id="form" ref={hoverRef}  className='registr' action='https://vk.com/id392344540'  method='post'>
-   <h2>Регистрация</h2>
-   <h3>Введите свои данные</h3>
+      <div className='table-div-h'>
+   <h2 >Регистрация</h2>
+   <h3 >Введите свои данные</h3>
+   </div>
    <input name='dates'  type='date' style={styles} className={isHovered ? 'registr-value-data-second' : 'registr-value-data'} placeholder='Дата рождения' required></input>
    <input name='names'   type='text' style={styles} className={isHovered ? 'registr-value' : 'registr-value-two'} placeholder='Имя' required></input>
    <input name='surnames'   type='text' style={styles} className={isHovered ? 'registr-value-two' : 'registr-value'} placeholder='Фамилия' required></input>
@@ -77,6 +76,6 @@ export default function Tablereg({setReg}) {
    <input name='submit'   type='submit' style={styles} className={isHovered ? 'submit' : 'submit'} ></input>
    <input name='reset' value="Стереть"   type='reset' style={styles} className={isHovered ? 'submit' : 'submit'} ></input>
    </form>
-   </>
+   </main>
   )
 }
