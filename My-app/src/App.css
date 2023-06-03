@@ -2,7 +2,7 @@
   .main {
     display: flex;
     flex-direction: column;
-    max-height: 10vh;
+    height: 10vh;
   }
 }
 
@@ -14,6 +14,7 @@
 
 body {
   min-width: 900px;
+  background-color: beige;
 }
 
 .registr {
