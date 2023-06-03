@@ -1,8 +1,7 @@
 .main {
   width: 100%;
-  height: 100%;
+  height: 60%;
   display: flex;
-  justify-content: center;
 }
 
 .registr {
@@ -257,8 +256,6 @@ aside ul {
 @media (max-width: 480px) {
   
 .main {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,8 +273,8 @@ aside ul {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
-  max-height: 50%;
+  max-width: 30%;
+  max-height: 40%;
   margin-left: 15%;
   margin-top: 5%;
 
@@ -386,8 +383,6 @@ aside ul {
 
 @media (max-width: 767px) {
   .main {
-    width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -405,8 +400,8 @@ aside ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
-    max-height: 50%;
+    max-width: 30%;
+    max-height: 40%;
     margin-left: 15%;
     margin-top: 5%;
   
@@ -518,8 +513,6 @@ aside ul {
     width: 900px;
   }
   .main {
-    width: 100%;
-    height: 100%;
     display: flex;
   }
   
@@ -535,7 +528,7 @@ aside ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    max-width: 30%;
     max-height: 50%;
     margin-left: 15%;
     margin-top: 5%;
