@@ -13,7 +13,7 @@ function Welcome({setReg}) {
     }
 
     // styleBody
-    document.body.style.backgroundColor = 'rgb(255, 222, 173)';
+    document.body.style.backgroundColor = 'rgba(255, 222, 173)';
 
   return (
     <>
