@@ -9,7 +9,7 @@ function Welcome({setReg}) {
     };
 
     let styleH = {
-      color: 'rgb(56, 33, 2)'
+      color: 'rgba(56, 33, 2)'
     }
 
     // styleBody
