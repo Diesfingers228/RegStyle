@@ -44,6 +44,8 @@ export default function Tablereg({setReg}) {
          };
          
     };
+    // styleBody
+    document.body.style.backgroundColor = 'beige';
 
   return (
 <main className='main'>

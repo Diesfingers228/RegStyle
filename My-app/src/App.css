@@ -2,8 +2,10 @@
   .main {
     display: flex;
     flex-direction: column;
-    height: 10vh;
   }
+   body {
+    max-height: 800px;
+   }
 }
 
 @media (min-width: 900px) {
@@ -14,7 +16,6 @@
 
 body {
   min-width: 900px;
-  background-color: beige;
 }
 
 .registr {
