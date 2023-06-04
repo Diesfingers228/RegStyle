@@ -132,7 +132,8 @@ body {
 
 .main {
   display: flex;
-  
+  flex-direction: row;
+
 }
 
 .registr {
@@ -528,6 +529,7 @@ aside ul {
   }
   .main {
     display: flex;
+    flex-direction: row;
   }
   
   .registr {
