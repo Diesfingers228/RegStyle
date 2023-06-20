@@ -5,6 +5,7 @@ import Tablereg from './Мои компоненты/Tablereg';
 
 function App() {
   const [reg, setReg] = useState(false)
+  
 
   return (
     <>
