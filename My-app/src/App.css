@@ -11,12 +11,7 @@ body {
   border: solid 2px;
   border-color:darkgrey;
   border-radius: 10px;
-  min-width: 1024px;
-  min-height: 600px;
-}
-
-html, body {
-  height: 99.7%;
+  
 }
 
 .reg {
@@ -24,12 +19,13 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 110%;
+  width: 100%;
   border: solid 2px; 
   border-color: rgb(52, 96, 134);
   border-radius: 10px;
   overflow-x:hidden;
   word-wrap: break-word;
-  padding-top: 3%;
 }
 
 .reg button {
