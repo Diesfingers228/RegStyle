@@ -1,8 +1,4 @@
 @media (min-width: 800px) {
-html {
-  border: solid 2px;
-  border-color:darkgrey;
-}
 
 body {
   background-image: url(image.jpg);
@@ -24,8 +20,8 @@ html, body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 110%;
-  width: 100%;
+  height: 125%;
+  width: 110%;
   border: solid 2px; 
   border-color: rgb(52, 96, 134);
   border-radius: 10px;
@@ -98,10 +94,6 @@ html, body {
 
 
 @media  (max-width: 799px) {
-html {
-  border: solid 2px;
-  border-color:darkgrey;
-}
 
   body {
   background-image: url(image.jpg);
@@ -130,6 +122,9 @@ html, body {
   border-radius: 10px;
   overflow-x:hidden;
   word-wrap: break-word;
+}
+
+.reg:hover {
   background-color: rgb(82, 82, 87);
 
 }
