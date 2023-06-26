@@ -1,13 +1,16 @@
 import React from 'react'
+import { useDispatch } from 'react-redux'
+import { exit } from '../store/Slices/FormSlice'
 
-function Welcome({setReg}) {
-  console.log(localStorage)
+function Welcome() {
+const dispatch = useDispatch();
+
   return (
     <>
     <div className='div-welcome' >
     <h1>Добро пожаловать!</h1>
-    <h1> {localStorage.getItem('Nick')}</h1>
-    <button onClick={() => {localStorage.clear(); setReg(localStorage.length)}}>Выйти.</button>
+    <h1> {localStorage.getItem('0')}</h1>
+    <button onClick={() => {dispatch(exit())}}>Выйти</button>
     </div>
     </>
   )

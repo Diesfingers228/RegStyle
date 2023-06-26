@@ -1,15 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
 import Welcome from './Мои компоненты/Welcome';
 import Tablereg from './Мои компоненты/Tablereg';
+import { useSelector } from 'react-redux'
+
 
 function App() {
-  const [reg, setReg] = useState(false)
-  
+const selector = useSelector(state => state.myFirstReducer.onOff);
 
   return (
     <>
-    {reg == 3? <Welcome setReg={setReg} /> : <Tablereg setReg = {setReg} />}
+    {selector === 1? <Welcome /> : <Tablereg />}
     </>
   );
 }
